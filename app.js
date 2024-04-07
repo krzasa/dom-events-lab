@@ -25,9 +25,10 @@ numbers.forEach(number => {
       // This log is for testing purposes to verify we're getting the correct value
       
         
-        screen.textContent = "" 
+       
 
         if (event.target.innerText != "="){
+           
             nums += event.target.innerText
              screen.textContent = nums // this displays all the stacked numbers 
              console.log(nums);
